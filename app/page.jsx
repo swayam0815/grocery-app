@@ -93,6 +93,7 @@ export default function Home() {
               placeholder="Search for a specific item"
               className="p-3 w-full border-black border-4 flex justify-center items-center rounded-xl outline-none text-black"
             />
+            {/*  */}
           </form>
           <ul className="border-t-4 border-t-slate-600 pt-4 rounded">
             {items.map(
